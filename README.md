@@ -90,6 +90,18 @@ Optional smoke test:
 uv run main.py --help
 ```
 
+## 🧠 Agent skill
+
+This repo includes an Anthropic-style skill at `skills/candle-vault/`.
+
+Agents that support repository skills can use it to ask the `config.toml` setup questions, configure the project, install dependencies, and run the fetcher.
+
+Example prompt:
+
+```text
+Install and use the Candle Vault skill from skills/candle-vault, then configure this repo and fetch BTC/USDT 1h candles since 2024-06-01.
+```
+
 ---
 
 ## 🧾 Configuration
