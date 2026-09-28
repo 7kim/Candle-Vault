@@ -186,4 +186,4 @@ uv run python -m compileall src
 
 ## 📄 License
 
-Add a license before publishing this repository publicly. MIT is a good default if you want others to use, modify, and share it freely.
+MIT License. See [LICENSE](LICENSE).
