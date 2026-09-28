@@ -76,16 +76,15 @@ Install `uv` if it is not already installed:
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-From the project repo directory, initialize the uv project and add the app dependency:
+From the project repo directory, install the locked dependencies:
 
 ```bash
-uv init --bare
-uv add ccxt
+uv sync
 ```
 
 `uv` creates the local `.venv/` when it runs commands. The `.venv/` folder is ignored by git.
 
-Check that the app runs from the project repo directory:
+Optional smoke test:
 
 ```bash
 uv run main.py --help
