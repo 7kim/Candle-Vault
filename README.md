@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" width="360" alt="Crypto OHLCV Fetcher logo" />
+  <img src="assets/logo.svg" width="360" alt="Candle Vault trading data logo" />
 </p>
 
 <h1 align="center">Crypto OHLCV Fetcher</h1>

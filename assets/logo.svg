@@ -1,22 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="180" viewBox="0 0 560 180" role="img" aria-labelledby="title desc">
-  <title id="title">Crypto OHLCV Fetcher logo</title>
-  <desc id="desc">Candlestick chart logo with OHLCV text.</desc>
-  <rect width="560" height="180" rx="28" fill="#0f172a"/>
-  <path d="M56 128 H504" stroke="#334155" stroke-width="2"/>
-  <path d="M56 92 H504" stroke="#1e293b" stroke-width="2"/>
-  <path d="M56 56 H504" stroke="#1e293b" stroke-width="2"/>
-  <path d="M92 118 L148 82 L204 98 L260 58 L316 78 L372 44 L428 66 L484 36" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <g stroke-width="6" stroke-linecap="round">
-    <line x1="116" y1="54" x2="116" y2="122" stroke="#22c55e"/>
-    <rect x="102" y="72" width="28" height="34" rx="4" fill="#22c55e"/>
-    <line x1="188" y1="64" x2="188" y2="136" stroke="#ef4444"/>
-    <rect x="174" y="88" width="28" height="30" rx="4" fill="#ef4444"/>
-    <line x1="260" y1="40" x2="260" y2="108" stroke="#22c55e"/>
-    <rect x="246" y="56" width="28" height="34" rx="4" fill="#22c55e"/>
-    <line x1="332" y1="54" x2="332" y2="126" stroke="#ef4444"/>
-    <rect x="318" y="76" width="28" height="32" rx="4" fill="#ef4444"/>
+  <title id="title">Candle Vault logo</title>
+  <desc id="desc">Trading candles flowing into downloaded market data rows.</desc>
+  <rect width="560" height="180" rx="28" fill="#0b1220"/>
+  <rect x="46" y="34" width="468" height="112" rx="18" fill="#111827" stroke="#243044" stroke-width="2"/>
+  <path d="M78 116 H310" stroke="#293548" stroke-width="2"/>
+  <path d="M78 88 H310" stroke="#1f2937" stroke-width="2"/>
+  <path d="M78 60 H310" stroke="#1f2937" stroke-width="2"/>
+  <path d="M84 112 L122 82 L160 96 L198 64 L236 78 L284 48" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke-width="5" stroke-linecap="round">
+    <line x1="112" y1="58" x2="112" y2="120" stroke="#16a34a"/>
+    <rect x="100" y="76" width="24" height="30" rx="4" fill="#22c55e"/>
+    <line x1="168" y1="64" x2="168" y2="124" stroke="#dc2626"/>
+    <rect x="156" y="84" width="24" height="26" rx="4" fill="#ef4444"/>
+    <line x1="224" y1="48" x2="224" y2="108" stroke="#16a34a"/>
+    <rect x="212" y="62" width="24" height="32" rx="4" fill="#22c55e"/>
   </g>
-  <g fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
-    <text x="366" y="114">OHLCV</text>
+  <path d="M326 90 H368" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M356 74 L374 90 L356 106" fill="none" stroke="#64748b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="388" y="52" width="80" height="78" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+  <path d="M428 68 V100" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M414 88 L428 102 L442 88" fill="none" stroke="#e2e8f0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M408 116 H448" stroke="#22c55e" stroke-width="5" stroke-linecap="round"/>
+  <g stroke="#475569" stroke-width="3" stroke-linecap="round">
+    <path d="M486 66 H502"/>
+    <path d="M486 86 H502"/>
+    <path d="M486 106 H502"/>
   </g>
 </svg>
