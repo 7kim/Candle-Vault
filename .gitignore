@@ -5,5 +5,5 @@ __pycache__/
 venv/
 .env
 
-crypto_data/
+Candle_Data/
 Candle-Vault.code-workspace

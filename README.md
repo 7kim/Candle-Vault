@@ -35,13 +35,13 @@ ccxt exchange client
 OHLCV candle rows
     |
     v
-crypto_data/{SYMBOL}/{RUN_DATE}/{SYMBOL}_{TIMEFRAME}.csv
+Candle_Data/{SYMBOL}/{RUN_DATE}/{SYMBOL}_{TIMEFRAME}.csv
 ```
 
 Example output path:
 
 ```text
-crypto_data/BTC/2026-09-28/BTC_USDT_1h.csv
+Candle_Data/BTC/2026-09-28/BTC_USDT_1h.csv
 ```
 
 Each CSV contains:
@@ -99,7 +99,7 @@ exchange = "binance"
 symbols = ["BTC/USDT", "SOL/USDT"]
 timeframes = ["5m", "15m", "1h", "4h", "12h", "1d"]
 since = "2024-06-01T00:00:00Z"
-output_dir = "crypto_data"
+output_dir = "Candle_Data"
 ```
 
 | Field | Meaning |
@@ -128,7 +128,7 @@ Fetch every hour:
 uv run main.py --config config.toml --every-hours 1
 ```
 
-Generated files are saved under `crypto_data/`, which is ignored by git.
+Generated files are saved under `Candle_Data/`, which is ignored by git.
 
 ---
 
@@ -171,7 +171,7 @@ uv run python -m compileall src
 - The app is a flat `src/main.py` module because this project does not need a package folder yet.
 - CSV writing uses Python's standard library instead of pandas because the fetcher only writes rows to disk.
 - `ccxt` is the only runtime dependency because exchange access is the only external behavior.
-- `crypto_data/` is ignored because generated market data should not be committed.
+- `Candle_Data/` is ignored because generated market data should not be committed.
 
 ---
 

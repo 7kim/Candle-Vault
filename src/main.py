@@ -34,7 +34,7 @@ class FetchConfig:
             symbols=tuple(fetch.get("symbols", ())),
             timeframes=tuple(fetch.get("timeframes", ())),
             since=str(fetch["since"]),
-            output_dir=Path(fetch.get("output_dir", "crypto_data")),
+            output_dir=Path(fetch.get("output_dir", "Candle_Data")),
         )
         config.validate()
         return config

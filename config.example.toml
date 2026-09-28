@@ -3,4 +3,4 @@ exchange = "binance"
 symbols = []
 timeframes = []
 since = "2024-06-01T00:00:00Z"
-output_dir = "crypto_data"
+output_dir = "Candle_Data"
