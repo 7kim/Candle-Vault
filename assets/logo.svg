@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="180" viewBox="0 0 560 180" role="img" aria-labelledby="title desc">
+  <title id="title">Crypto OHLCV Fetcher logo</title>
+  <desc id="desc">Candlestick chart logo with OHLCV text.</desc>
+  <rect width="560" height="180" rx="28" fill="#0f172a"/>
+  <path d="M56 128 H504" stroke="#334155" stroke-width="2"/>
+  <path d="M56 92 H504" stroke="#1e293b" stroke-width="2"/>
+  <path d="M56 56 H504" stroke="#1e293b" stroke-width="2"/>
+  <path d="M92 118 L148 82 L204 98 L260 58 L316 78 L372 44 L428 66 L484 36" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke-width="6" stroke-linecap="round">
+    <line x1="116" y1="54" x2="116" y2="122" stroke="#22c55e"/>
+    <rect x="102" y="72" width="28" height="34" rx="4" fill="#22c55e"/>
+    <line x1="188" y1="64" x2="188" y2="136" stroke="#ef4444"/>
+    <rect x="174" y="88" width="28" height="30" rx="4" fill="#ef4444"/>
+    <line x1="260" y1="40" x2="260" y2="108" stroke="#22c55e"/>
+    <rect x="246" y="56" width="28" height="34" rx="4" fill="#22c55e"/>
+    <line x1="332" y1="54" x2="332" y2="126" stroke="#ef4444"/>
+    <rect x="318" y="76" width="28" height="32" rx="4" fill="#ef4444"/>
+  </g>
+  <g fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">
+    <text x="366" y="114">OHLCV</text>
+  </g>
+</svg>

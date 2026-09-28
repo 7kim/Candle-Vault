@@ -1,4 +1,8 @@
-<h1 align="center">🕯️ Crypto OHLCV Fetcher</h1>
+<p align="center">
+  <img src="assets/logo.svg" width="360" alt="Crypto OHLCV Fetcher logo" />
+</p>
+
+<h1 align="center">Crypto OHLCV Fetcher</h1>
 
 <p align="center">
   <b>A small Python CLI for downloading crypto candle data from Binance through ccxt and saving it as clean CSV files.</b>
