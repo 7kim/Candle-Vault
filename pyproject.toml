@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-ohlcv-fetcher"
+version = "0.1.0"
+description = "Fetch OHLCV candle data from Binance through ccxt and save it as CSV."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["ccxt>=4"]
+
+[project.scripts]
+crypto-fetcher = "main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["main"]

@@ -1,0 +1,15 @@
+[fetch]
+# ccxt exchange id. Keep "binance" unless you want another supported exchange.
+exchange = "binance"
+
+# Fill these before running, for example: ["BTC/USDT", "SOL/USDT"].
+symbols = ["BTC/USDT"]
+
+# Fill these before running, for example: ["5m", "15m", "1h", "4h", "12h", "1d"].
+timeframes = ["1m"]
+
+# First candle timestamp to request from the exchange.
+since = "2015-01-01T00:00:00Z"
+
+# Generated CSV files are written here. This folder is ignored by git.
+output_dir = "crypto_data"
