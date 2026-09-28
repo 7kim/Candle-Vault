@@ -141,7 +141,6 @@ Generated files are saved under `Candle_Data/`, which is ignored by git.
 ```text
 .
 ├── config.toml              # User-editable fetch settings
-├── config.example.toml      # Empty reference config
 ├── main.py                  # Root launcher for `uv run main.py`
 ├── pyproject.toml           # Project metadata, dependency, and CLI entry point
 ├── src/
